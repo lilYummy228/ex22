@@ -37,7 +37,7 @@ namespace ex22
                     repeatitions = 1;
                 }
 
-                if (repeatitions > 1)
+                if (repeatitions > repeatitionCount)
                 {
                     repeatitionCount = repeatitions;
                     repeatedNumber = array[i];
